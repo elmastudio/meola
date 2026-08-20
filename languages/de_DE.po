@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meola v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 15:29+0000\n"
+"PO-Revision-Date: 2019-12-28 15:30+0000\n"
+"Last-Translator: admin <yourname@yourdomain.com>\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: content-gallery.php:27 content-status.php:23 content-chat.php:27
+#: content.php:48 content-aside.php:27 content-audio.php:27
+#: content-video.php:27 content-quote.php:23 content-link.php:23
+#: content-image.php:23
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#. translators: 1: date, 2: time
+#: functions.php:296
+#, php-format
+msgid "%1$s &#64; %2$s"
+msgstr "%1$s &#64; %2$s"
+
+#: functions.php:291
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: includes/theme-options.php:109
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: functions.php:369
+msgid "&laquo; Older entries"
+msgstr "&laquo; Ältere Einträge"
+
+#: comments.php:48
+msgid "&larr;  Older Comments"
+msgstr "&larr;  Ältere Kommentare"
+
+#: image.php:66
+msgid "&larr; Previous Image"
+msgstr "&larr; Vorheriges Bild"
+
+#: single.php:26
+msgid "&larr; Previous Post"
+msgstr "&larr; Vorheriger Artikel"
+
+#: includes/theme-options.php:197
+msgid ". Now copy the image file URL and insert the URL here."
+msgstr " hoch. Dann kopiere die Bild-URL und füge sie hier ein."
+
+#: includes/theme-options.php:155
+msgid ". Then copy your logo image file URL and insert the URL here."
+msgstr ". Dann kopiere deine Logobild-URL und trage die URL hier ein."
+
+#: content-gallery.php:27 content-status.php:23 content-chat.php:27
+#: content.php:48 content-aside.php:27 content-audio.php:27
+#: content-video.php:27 content-quote.php:23 content-link.php:23
+#: content-image.php:23
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: content-gallery.php:27 content-status.php:23 comments.php:29
+#: content-chat.php:27 content.php:48 content-aside.php:27 content-audio.php:27
+#: content-video.php:27 content-quote.php:23 content-link.php:23
+#: content-image.php:23
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: functions.php:1295
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: comments.php:73
+msgid ""
+"<p class=\"comment-note\">Required fields are marked <span "
+"class=\"required\">*</span>.</p>"
+msgstr ""
+"<p class=\"comment-note\">Pflichtfelder sind mit <span class=\"required\">"
+"*</span> markiert.</p>"
+
+#: functions.php:320
+msgid "<span>Pingback:</span>"
+msgstr "<span>Pingback:</span>"
+
+#: functions.php:812
+msgid "About Text:"
+msgstr "About Text:"
+
+#: functions.php:745
+msgid "About widget with picture and intro text"
+msgstr ""
+
+#: archive.php:28
+#, php-format
+msgid "All Posts by %s"
+msgstr "Alle Artikel von %s"
+
+#: 404.php:21
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Entschuldigung, aber die Seite konnte leider nicht gefunden werden. "
+"Vielleicht findest du ein Ergebnis über die Suchfunktion."
+
+#: archive.php:41
+msgid "Archives"
+msgstr "Archiv"
+
+#: functions.php:155
+msgid "Beach"
+msgstr "Strand"
+
+#: functions.php:1330
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:948
+msgid "Category ID numbers (to choose which categories to include):"
+msgstr ""
+"Kategorie ID Nummern (um festzulegen, welche Kategorien angezeigt werden):"
+
+#: includes/theme-options.php:230
+msgid "Check this box to also include the share buttons on pages."
+msgstr ""
+"Wähle diese Option, um die Teilen-Buttons auch auf deinen Seiten anzuzeigen."
+
+#: includes/theme-options.php:212
+msgid ""
+"Check this box to include share buttons (for Twitter, Facebook, Google+) on "
+"your blogs front page and on single post pages."
+msgstr ""
+"Wähle diese Option, um die Share-Buttons (für Twitter, Google+, Facebook) "
+"auf der Blog-Startseite, sowie auf Artikel-Einzelseiten anzuzeigen."
+
+#: includes/theme-options.php:221
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single post pages (below the post content)."
+msgstr ""
+"Wähle diese Option, um die Teilen-Buttons <strong>nur</strong> auf den "
+"Artikel-Einzelseiten (unterhalb des Artikels) zu integrieren."
+
+#: includes/theme-options.php:245
+msgid ""
+"Check this box to inlcude the Responsive Slider WordPress-Plugin below the "
+"blog title in the header section of your front page(this can either be your "
+"blog or a static page, see Settings/Reading)."
+msgstr ""
+"Mache ein Häkchen, um den Slider des Responsive Slider WordPress-Plugins "
+"unterhalb des Blog-Titels im Header deiner Startseite anzuzeigen (die "
+"Startseite kann entweder dein Blog oder eine statische Seite sein, siehe "
+"Einstellungen/Lesen)."
+
+#: includes/theme-options.php:164
+msgid ""
+"Check this box to show automatic post excerpts in your blog (with this "
+"option you will not need the more tag in posts)."
+msgstr ""
+"Mache ein Häkchen, um automatische Artikel-Excerpts in deinem Blog "
+"anzuzeigen (mit dieser Option benötigst du keinen more tag in deinen "
+"Artikeln)."
+
+#: functions.php:636
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: includes/theme-options.php:140
+#, php-format
+msgid ""
+"Choose your custom background colors (for special Widgets, Main Navigation & "
+"Autor Info). The default Background Color is: %s)."
+msgstr ""
+"Wähle eine eigene Hintergrundfarbe (für spezielle Widgets, die Haupt-"
+"Navigation und das Autoren-Infofeld). Die Standardfarbe ist: %s."
+
+#: includes/theme-options.php:129
+#, php-format
+msgid ""
+"Choose your custom link color, the default Link Color is: %s. Do not forget "
+"to include the # before the color value."
+msgstr ""
+"Wähle deine eigene Linkfarbe, die Standardfarbe ist: %s. Vergiss dabei nicht "
+"das # Hexwert-Zeichen vor dem Farbwert."
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: content-gallery.php:27 content-status.php:23 content-chat.php:27
+#: content.php:48 content-aside.php:27 content-audio.php:27
+#: content-video.php:27 content-quote.php:23 content-link.php:23
+#: content-image.php:23
+msgid "comments off"
+msgstr "Kommentare deaktiviert"
+
+#: includes/theme-options.php:197
+msgid ""
+"Create a <strong>128x128px png</strong> image for your webclip icon. Upload "
+"your image using the "
+msgstr ""
+"Erstelle ein <strong>128x128px png</strong> Bild für dein Apple Webclip-Icon."
+" Lade das Bild über die "
+
+#: includes/theme-options.php:188
+msgid ""
+"Create a <strong>16x16px</strong> image and generate favicon using an "
+"favicon online generator. Now upload your favicon to your themes folder (via "
+"FTP) and enter your Favicon URL here (the URL path should be similar to: "
+"yourdomain.com/wp-content/themes/meola/favicon.ico)."
+msgstr ""
+
+#: includes/theme-options.php:193 includes/theme-options.php:195
+msgid "Custom Apple Touch Icon"
+msgstr "Eigenes Apple Touch Icon"
+
+#: includes/theme-options.php:134 includes/theme-options.php:136
+msgid "Custom Background Color"
+msgstr "Eigene Hintergrundfarbe"
+
+#: includes/theme-options.php:121
+msgid "Custom Colors"
+msgstr "Eigene Farben"
+
+#: includes/theme-options.php:184 includes/theme-options.php:186
+msgid "Custom Favicon"
+msgstr "Eigenes Favicon"
+
+#: includes/theme-options.php:169
+msgid "Custom Footer Text"
+msgstr "Individueller Footertext"
+
+#: includes/theme-options.php:171
+msgid "Custom Footer text"
+msgstr "Footer Text anpassen"
+
+#: includes/theme-options.php:123
+msgid "Custom Link Color"
+msgstr "Eigene Linkfarbe"
+
+#: includes/theme-options.php:151
+msgid "Custom Logo"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:153
+msgid "Custom Logo image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:149
+msgid "Custom Logo, Post Excerpts and Custom Footer Text"
+msgstr "Eigenes Logo, Artikel-Excerpts und eigener Footertext"
+
+#: includes/theme-options.php:173
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: archive.php:32
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archiv von: %s"
+
+#: functions.php:1335
+msgid "deviantART URL:"
+msgstr "deviantART URL:"
+
+#: functions.php:145
+msgid "Directions"
+msgstr "Wegweise"
+
+#: functions.php:954
+msgid "Display thumbnails?"
+msgstr "Vorschaubilder anzeigen?"
+
+#: functions.php:1310
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: functions.php:300 functions.php:321
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content-gallery.php:28 content-status.php:24 content-chat.php:28
+#: content.php:49 content-aside.php:28 content-audio.php:28
+#: content-video.php:28 content-quote.php:24 content-link.php:24
+#: content-image.php:24
+msgid "Edit Post &rarr;"
+msgstr "Artikel bearbeiten &rarr;"
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: footer.php:52
+msgid "en_US"
+msgstr "de_DE"
+
+#: functions.php:1270
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: includes/theme-options.php:182
+msgid "Favicon and Apple Touch Icon"
+msgstr "Favicon und Apple Touch Icon"
+
+#: functions.php:1315
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: functions.php:612
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions.php:617
+msgid "Flickr Profile Link Text:"
+msgstr "Flickr-Profil Link-Text:"
+
+#: functions.php:622
+msgid "Flickr Profile URL:"
+msgstr "Flickr-Profil URL:"
+
+#: functions.php:1280
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: functions.php:92
+msgid "Footer Navigation (no sub menus supported)"
+msgstr "Footer Navigation (es werden keine Untermenüs unterstützt)"
+
+#: functions.php:1365
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#. Name of the template
+msgid "Full Width"
+msgstr ""
+
+#: functions.php:1370
+msgid "GitHub URL:"
+msgstr "GitHub URL:"
+
+#: functions.php:1275
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: functions.php:1355
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: functions.php:639
+msgid "Group"
+msgstr "Gruppe"
+
+#. Author URI of the theme
+msgid "http://www.elmastudio.de/wordpress-themes/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.elmastudio.de/wordpress-themes/meola/"
+msgstr ""
+
+#: footer.php:22
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:807
+msgid "Image Caption Text:"
+msgstr "Text der Bildunterschrift:"
+
+#: functions.php:802
+msgid "Image Height (only value, no px):"
+msgstr "Bildhöhe (nur Wert, nicht px):"
+
+#: functions.php:716
+msgid "Image Height:"
+msgstr "Bildhöhe:"
+
+#: functions.php:721
+msgid "Image Title:"
+msgstr "Bild-Titel:"
+
+#: functions.php:706 functions.php:792
+msgid "Image URL:"
+msgstr "Bild URL:"
+
+#: functions.php:797
+msgid "Image Width (only value, no px):"
+msgstr "Bildbreite (nur Wert, nicht px):"
+
+#: functions.php:711
+msgid "Image Width:"
+msgstr "Bildbreite:"
+
+#: includes/theme-options.php:241 includes/theme-options.php:243
+msgid "Include Responsive Slider"
+msgstr "Responsive Slider integrieren"
+
+#: functions.php:1285
+msgid "Instagram URL (e.g. via Instagrid.me):"
+msgstr "Instagram URL (z.B. mit Instagrid.me):"
+
+#: archive.php:83
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Leider kann kein Eintrag zu diesem Suchbegriff gefunden werden. Vielleicht "
+"ist die Suche mit einem alternativen Schlagwort erfolgreich."
+
+#: functions.php:1350
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: functions.php:645
+msgid "Latest"
+msgstr "Neuste"
+
+#: includes/theme-options.php:125
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: functions.php:973
+msgid "Link to your social profile sites"
+msgstr ""
+
+#: functions.php:726
+msgid "Link URL:"
+msgstr "Link URL:"
+
+#: functions.php:1375
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menü"
+
+#. Name of the theme
+msgid "Meola"
+msgstr ""
+
+#: functions.php:743
+msgid "Meola About"
+msgstr "Meola About"
+
+#: functions.php:662
+msgid "Meola Featured Image"
+msgstr "Meola Featured Bild"
+
+#: functions.php:829
+msgid "Meola Featured Video"
+msgstr "Meola Featured Video"
+
+#: functions.php:563
+msgid "Meola Flickr"
+msgstr "Meola Flickr"
+
+#. Description of the theme
+msgid ""
+"Meola is Premium responsive, mobile-first WordPress theme with a modern "
+"single-column layout, a header image and background option, lots of practial "
+"custom widgets and an easy-to-use theme options page."
+msgstr ""
+
+#: functions.php:885
+msgid "Meola Recent Posts"
+msgstr "Meola Neueste Artikel"
+
+#: functions.php:971
+msgid "Meola Social Links"
+msgstr "Meola Social Links"
+
+#: functions.php:1325
+msgid "mixi URL:"
+msgstr "mixi URL:"
+
+#: archive.php:35
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archiv des Monats: %s"
+
+#: comments.php:49
+msgid "Newer Comments  &rarr;"
+msgstr "Neuere Kommentare  &rarr;"
+
+#: functions.php:370
+msgid "Newer entries &raquo;"
+msgstr "Neuere Einträge &raquo;"
+
+#: image.php:67
+msgid "Next Image &rarr;"
+msgstr "Nächstes Bild &rarr;"
+
+#: single.php:25
+msgid "Next Post &rarr;"
+msgstr "Nächster Artikel &rarr;"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: archive.php:79 search.php:33
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: comments.php:74
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Nachricht <span class=\"required\">*</span>"
+
+#: functions.php:627
+msgid "Number of photos:"
+msgstr "Anzahl der Bilder:"
+
+#: functions.php:140
+msgid "Ocean"
+msgstr "Ozean"
+
+#: functions.php:1405
+msgid "Open all links in a new browser tab"
+msgstr "Öffne alle Links in einem neuen Browser-Tab"
+
+#: content-single.php:26 content.php:40
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-gallery.php:17 content-chat.php:17 content.php:17
+#: content-aside.php:17 content-audio.php:17 content-video.php:17
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:1290
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: functions.php:1320
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: includes/theme-options.php:160 includes/theme-options.php:162
+msgid "Post Excerpts"
+msgstr "Artikel-Excerpts"
+
+#: content-single.php:50
+#, php-format
+msgid "Posted by %s"
+msgstr "Veröffentlicht von %s"
+
+#: content-single.php:31
+msgid "Posted in:"
+msgstr "Veröffentlicht in:"
+
+#: archive.php:21
+#, php-format
+msgid "Posts in Category &lsquo;%s&rsquo;"
+msgstr "Artikel in der Kategorie &lsquo;%s&rsquo;"
+
+#: archive.php:24
+#, php-format
+msgid "Posts Tagged &lsquo;%s&rsquo;"
+msgstr "Artikel mit dem Schlagwort &lsquo;%s&rsquo;"
+
+#: functions.php:91
+msgid "Primary Navigation"
+msgstr "Haupt-Navigation"
+
+#: footer.php:22
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: functions.php:646
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:231 content-gallery.php:21 content-status.php:17
+#: content-chat.php:21 content.php:37 content-aside.php:21 content-audio.php:21
+#: content-video.php:21 content-quote.php:17 content-link.php:17
+#: content-image.php:17
+msgid "Read more &rarr;"
+msgstr "Weiterlesen &rarr;"
+
+#: functions.php:292
+msgid "Reply"
+msgstr "Antworten"
+
+#: includes/theme-options.php:239
+msgid "Responsive Slider"
+msgstr "Responsive Slider"
+
+#: functions.php:1400
+msgid "RSS for Comments URL:"
+msgstr "RSS der Kommentare URL:"
+
+#: functions.php:1395
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Suche"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "Suchergebnisse für &lsquo;%s&rsquo;"
+
+#: searchform.php:10
+msgid "Search this site..."
+msgstr "Seite durchsuchen..."
+
+#: comments.php:75
+msgid "Send Comment"
+msgstr "Kommentar senden"
+
+#: share.php:10
+msgid "Share"
+msgstr "Teilen"
+
+#: includes/theme-options.php:206
+msgid "Share Buttons"
+msgstr "Teilen Buttons"
+
+#: includes/theme-options.php:226 includes/theme-options.php:228
+msgid "Share option for pages"
+msgstr "Teilen-Buttons für Seiten"
+
+#: includes/theme-options.php:208 includes/theme-options.php:210
+msgid "Share option for posts"
+msgstr "Teilen-Buttons für Artikel"
+
+#: includes/theme-options.php:217 includes/theme-options.php:219
+msgid "Share option for single post pages only"
+msgstr "Teilen-Buttons nur auf Einzelartikel-Seiten"
+
+#: functions.php:887
+msgid "Show 3 recent posts with or without thumbnails"
+msgstr ""
+
+#: functions.php:664
+msgid "Show a featured image"
+msgstr ""
+
+#: functions.php:831
+msgid "Show a featured video"
+msgstr ""
+
+#: functions.php:643
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: functions.php:565
+msgid "Show your Flickr preview images"
+msgstr ""
+
+#: functions.php:1345
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. "
+"Bitte versuche es noch einmal mit anderen Schlagwörtern."
+
+#: functions.php:1360
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: functions.php:1340
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: content-single.php:34
+msgid "Tagged:"
+msgstr "Schlagwort:"
+
+#: includes/theme-options.php:63 includes/theme-options.php:64
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: footer.php:23
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: comments.php:12
+#, php-format
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die "
+"Kommentare zu sehen."
+
+#: functions.php:607 functions.php:701 functions.php:787 functions.php:862
+#: functions.php:943 functions.php:1260
+msgid "Title:"
+msgstr "Titel:"
+
+#: footer.php:30
+msgid "Top"
+msgstr "Top"
+
+#: functions.php:1390
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: share.php:14
+msgid "Tweet"
+msgstr "Twitter"
+
+#: functions.php:1265
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: includes/theme-options.php:155
+msgid "Upload your own logo image using the "
+msgstr "Lade dein eigenes Logo-Bild hoch "
+
+#: functions.php:638
+msgid "User"
+msgstr "Person"
+
+#: functions.php:867
+msgid "Video embed code:"
+msgstr "Video-Einbettungscode:"
+
+#: functions.php:1305
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:150
+msgid "Wave"
+msgstr "Welle"
+
+#: functions.php:345
+msgid "Widget Area Bottom"
+msgstr "Widgetbereich Unten"
+
+#: functions.php:335
+msgid "Widget Area Top"
+msgstr "Widgetbereich Oben"
+
+#: functions.php:337
+msgid ""
+"Widgets will appear below the header and above the post or page content area."
+msgstr ""
+"Die Widgets werden unterhalb des Headers und oberhalb der Artikel oder "
+"Seiten angezeigt."
+
+#: functions.php:347
+msgid ""
+"Widgets will appear below the post or page content area and above the footer."
+msgstr ""
+"Widgets werden unterhalb der Artikel und Seiten und oberhalb des Footers "
+"angezeigt."
+
+#: footer.php:22
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/theme-options.php:155 includes/theme-options.php:197
+msgid "WordPress Media Uploader"
+msgstr "WordPress Mediathek"
+
+#: functions.php:1385
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: comments.php:32
+msgid "Write a comment"
+msgstr "Schreibe einen Kommentar"
+
+#: functions.php:1380
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: archive.php:38
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archiv des Jahres: %s"
+
+#: functions.php:306
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: functions.php:1300
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
