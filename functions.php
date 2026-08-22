@@ -357,8 +357,8 @@ endif; // meola_content_nav
 /*-----------------------------------------------------------------------------------*/
 /* Removes the default CSS style from the WP image gallery
 /*-----------------------------------------------------------------------------------*/
-add_filter('gallery_style', create_function('$a', 'return "
-<div class=\'gallery\'>";'));
+add_filter('gallery_style', function($a) { return "
+<div class='gallery'>"; });
 
 /*-----------------------------------------------------------------------------------*/
 /* Deactives the default CSS styles for the Smart Archives Reloaded plugin
