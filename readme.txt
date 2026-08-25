@@ -52,3 +52,9 @@ Version 1.0 - July 23th 2012
 ---------------------------------------------------------------------------------------------------------------------------
 Social Icons by Gedy Riviera: lifetreecreative.com/icons/
 ---------------------------------------------------------------------------------------------------------------------------
+
+Changelog:
+
+Version 1.0.8 (25/08/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
