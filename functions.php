@@ -6,20 +6,6 @@
  * @since Meola 1.0
  */
 
-/*-----------------------------------------------------------------------------------*/
-/* Theme update feature setup
-/*-----------------------------------------------------------------------------------*/
-
-if ( ! class_exists( 'WC_AM_Client_25' ) ) {
-	require_once( get_template_directory() . '/inc/wc-am-client.php' );
-}
-
-if ( class_exists( 'WC_AM_Client_25' ) ) {
-
-	$wcam_lib = new WC_AM_Client_25( __FILE__, '', wp_get_theme( wp_get_theme()->Template )->Version, 'theme', 'https://www.elmastudio.de/', wp_get_theme( wp_get_theme()->Template )->Name, wp_get_theme( wp_get_theme()->Template )->get( 'TextDomain' ), '30027' );
-
-}
-
  /*-----------------------------------------------------------------------------------*/
 /* Set the content width based on the theme's design and stylesheet.
 /*-----------------------------------------------------------------------------------*/
@@ -332,7 +318,7 @@ function meola_widgets_init() {
 	) );
 
 }
-add_action( 'init', 'meola_widgets_init' );
+add_action( 'widgets_init', 'meola_widgets_init' );
 
 
 if ( ! function_exists( 'meola_content_nav' ) ) :
@@ -632,7 +618,6 @@ class meola_flickr extends WP_Widget {
 	}
 }
 
-register_widget('meola_flickr');
 
 /*-----------------------------------------------------------------------------------*/
 /* Include Meola Featured Image Widget
@@ -715,7 +700,6 @@ class meola_image extends WP_Widget {
 	}
 }
 
-register_widget('meola_image');
 
 /*-----------------------------------------------------------------------------------*/
 /* Include Meola About Widget
@@ -803,7 +787,6 @@ class meola_about extends WP_Widget {
 	}
 }
 
-register_widget('meola_about');
 
 /*-----------------------------------------------------------------------------------*/
 /* Include Meola Video Widget
@@ -860,7 +843,6 @@ class meola_video extends WP_Widget {
 	}
 }
 
-register_widget('meola_video');
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -949,7 +931,6 @@ class meola_recentposts extends WP_Widget {
 	}
 }
 
-register_widget('meola_recentposts');
 
 /*-----------------------------------------------------------------------------------*/
 /* Including Meola Social Links Widget
@@ -1401,7 +1382,6 @@ register_widget('meola_recentposts');
 	}
 }
 
-register_widget('meola_sociallinks');
 
 /* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
 function meola_php8_option_defaults( $options = array() ) {
@@ -1413,3 +1393,18 @@ function meola_php8_option_defaults( $options = array() ) {
 }
 add_filter( 'default_option_meola_theme_options', 'meola_php8_option_defaults' );
 add_filter( 'option_meola_theme_options', 'meola_php8_option_defaults' );
+
+/**
+ * Registered on widgets_init, which is where WordPress asks for it. At file
+ * scope each widget's constructor translated its own name before init, which
+ * WordPress 6.7 reports on every request.
+ */
+function meola_register_widgets() {
+	register_widget( 'meola_flickr' );
+	register_widget( 'meola_image' );
+	register_widget( 'meola_about' );
+	register_widget( 'meola_video' );
+	register_widget( 'meola_recentposts' );
+	register_widget( 'meola_sociallinks' );
+}
+add_action( 'widgets_init', 'meola_register_widgets' );
